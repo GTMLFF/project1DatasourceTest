@@ -7,7 +7,7 @@ import os
 class Result:
     def __init__(self,filename,url,i,param,response,expectmsg,passOrNot):
         self.filename = filename
-        path = 'D:\\Users\\tina.gong\\PycharmProjects\\untitled\\Result\\' + self.filename+time.strftime("%Y-%m-%d %H-%M")+ '_Result.xls'
+        path = 'E:\\TEST\\DataSourceTest\\commons\\Result\\' + self.filename+time.strftime("%Y-%m-%d %H-%M")+ '_Result.xls'
         print(self.filename)
         print(path)
         self.e = Excel.Excel(path)

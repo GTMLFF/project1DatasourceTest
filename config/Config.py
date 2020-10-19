@@ -11,7 +11,7 @@ class Config:
         self.log = Log.MyLog()
 
         # path = os.path.dirname(os.path.dirname(os.path.realpath('__file__')))
-        path = 'D:\\Users\\tina.gong\\PycharmProjects\\untitled'
+        path = 'E:\\TEST\\DataSourceTest\\'
         self.config_path = path +'\\config'+'\\config.ini'
         # print(self.config_path)
         if not os.path.exists(self.config_path):
@@ -50,5 +50,4 @@ class Config:
 
 if __name__ == "__main__":
     c = Config()
-    # c.get_value('ip_port','fico')
     c.add_optionandvalue('kk','ee','1')

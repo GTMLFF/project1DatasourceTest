@@ -33,7 +33,7 @@ class Excel:
 
 
 if __name__ == '__main__':
-    e = Excel("D:\\Users\\tina.gong\\PycharmProjects\\task\\Result\\result.xls")
+    e = Excel("123")
     e.create_excel()
     e.update_excel()
 
